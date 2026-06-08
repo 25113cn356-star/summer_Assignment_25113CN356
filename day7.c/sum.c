@@ -17,4 +17,3 @@ int main() {
     printf("Sum of digits = %d\n", sumOfDigits(num));
 
     return 0;
-}
