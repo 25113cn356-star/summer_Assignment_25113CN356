@@ -1,24 +1,24 @@
 #include<stdio.h>
 int main() {
-int r,c,i,j,sum;
+int R,c,i,j,sum;
 printf("Enter rows and columns: ");
-scanf("%d%d",&r,&c);
+scanf("%d%d",&R,&c);
 
-int a[r][c];
+int a[R][c];
 
 printf("Enter matrix elements:\n");
-for(i=0;i<r;i++) {
+for(i=0;i<R;i++) {
 for(j=0;j<c;j++) {
 scanf("%d",&a[i][j]);
 }
 }
 
-for(i=0;i<r;i++) {
-sum=0;
 for(j=0;j<c;j++) {
+sum=0;
+for(i=0;i<R;i++) {
 sum=sum+a[i][j];
 }
-printf("Sum of row %d = %d\n",i+1,sum);
+printf("Sum of column %d = %d\n",j+1,sum);
 }
 
 return 0;

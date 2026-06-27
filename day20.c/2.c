@@ -16,7 +16,7 @@ if(a[i][j]!=a[j][i]) {
 flag=0;
 break;
 }
-}
+}d
 }
 if(flag==1)
 printf("The matrix is Symmetric.");
