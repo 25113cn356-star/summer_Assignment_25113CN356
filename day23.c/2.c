@@ -2,7 +2,7 @@
 int main() {
 char str[100];
 int i,j,count;
-printf("Enter a string: ");
+printf("Enter string: ");
 gets(str);
 for(i=0;str[i]!='\0';i++) {
 count=0;
@@ -11,7 +11,7 @@ if(str[i]==str[j])
 count++;
 }
 if(count>1) {
-printf("First repeating character = %c",str[i]);
+printf("First repeating = %c",str[i]);
 break;
 }
 }
