@@ -3,7 +3,7 @@
 int main() {
 char name[10][50],temp[50];
 int n,i,j;
-printf("Enter number of names: ");
+printf("Enter names: ");
 scanf("%d",&n);
 getchar();
 for(i=0;i<n;i++)
