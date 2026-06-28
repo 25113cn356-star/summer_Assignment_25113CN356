@@ -9,7 +9,7 @@ for(i=0;str[i]!='\0';i++)
 count=1;
 while(str[i]==str[i+1])
  {
-count++;
+count++;p
 i++;
 }
 printf("%c%d",str[i],count);
